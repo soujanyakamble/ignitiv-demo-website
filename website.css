@@ -1,0 +1,435 @@
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+  }
+
+  /* first template starts */
+  .container {
+    height: 800px;
+    background-image: url("https://www.ignitiv.com/wp-content/uploads/2020/09/slide-s.png"), url("https://www.ignitiv.com/wp-content/uploads/2020/09/slide-y.png"), url(./banner.jpg);
+    background-position: -250px 150px, 980px 80px, center;
+    background-repeat: no-repeat, no-repeat, no-repeat;
+    background-size: 500px, 500px, cover;
+  }
+
+  .logo1 {
+    font-size: 56px;
+    text-align: left;
+    margin-left: 20px;
+    /* text-transform: inherit; */
+    color: rgb(247, 243, 238);
+  }
+
+    .nav
+    {
+      padding: 0px 0px;
+      margin: 30px;
+      float: right;
+      /* font-size: 20px; */
+    }
+    .nav a
+    {
+     text-decoration: none;
+     color:white;
+     font-size: 23px;
+     margin-top: 20px;
+    }
+  
+    
+    /* nav ul{
+      display: inline;
+      margin-left: 800px;
+    } */
+    nav ul li
+    {
+      display: inline;
+      color: white;
+      margin-left: 40px;
+      margin-top: 20px;
+      font-weight: bold;
+      font-size: 30px;
+    }
+
+    .cnt   
+    {
+      text-align:center;
+      font-size: 38px;
+      color: white;
+      margin: 321px 163px;
+      margin-bottom: 50px;
+      
+    }
+
+    .btn0
+    {
+      padding: 0px 0px;
+      text-align: center;
+      justify-content: center;
+      margin-left:540px ;
+      /* margin: -52px 520px; */
+      margin-top: 0px;
+      height: 57px;
+      width: 160px;
+      background-color: transparent;
+      border-color: white;
+      color: white;
+      font-size: 15px;
+    }
+
+
+  /* first template ends */
+
+  /* second template starts */
+  .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 25px 50px;
+  }
+  /* second template ends */
+
+
+  /* third template starts */
+
+  .container3 {
+    display: flex;
+    flex-direction: row;
+    height: 350px;
+    width: 100%;
+    justify-content: center;
+    margin-top: 20px;
+  }
+
+  .container3 h2 {
+    text-align: center;
+    padding: 20px 40px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .container3 p {
+    text-align: center;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 10px 20px
+  }
+
+  .container3 button {
+    /* text-align: center; */
+    padding: 15px 38px;
+    margin: 30px 145px;
+  }
+
+
+  .custmexp
+  {
+ background-color: rgb(94, 34, 186);
+ color: white;
+  }
+
+  .ptnpltm
+  {
+    background-color: rgb(28, 28, 28);
+    color: white;
+  }
+
+  .pwrinst
+  {
+    background-color:rgb(3, 70, 187);
+    color: white;
+  }
+
+
+  .btt
+  {
+   border-color: white;
+   background-color: transparent;
+   color: white;
+  }
+
+  /* third template ends */
+
+    /* fourth template starts */
+  
+  .block4 img, .block6 img
+  {
+   height: 400px;
+   width: 675px;
+  }
+  .block8 img
+  {
+    width: 673px;
+    margin-top: -4px;
+  }
+  .block5 img
+  {
+    height: 400px;
+   width: 675px;
+  
+  }
+
+  .block7 img
+  {
+    height: 400px;
+   width: 675px;
+
+  
+  }
+  .block4, .block6, .block8
+  {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: gainsboro;
+ }
+ 
+  .block4_1 , .block6_1 , .block8_1, .block5_1, .block7_1 
+  {
+ padding: 10px 10px;
+  }
+  .block4_1 h2, .block6_1 h2, .block8_1 h2, .block5_1 h2, .block5_1 h2
+  {
+  margin: 10px 20px; 
+ line-height: 5.6rem;
+ }
+ 
+ .block4_1 p, .block6_1 p, .block8_1 p, .block5_1 p, .block7_1 p
+ {
+  font-size: 20px;
+  font-style: oblique;
+   /* line-height: 3.5rem;  */
+ }
+ .block4_1 button, .block6_1 button, .block8_1 button
+ {
+   padding: 18px 20px;
+   height: 50px;
+   margin: 24px 189px;
+ } 
+ 
+ .block5_1 button, .block7_1 button
+ {
+  padding: 18px 20px;
+   height: 50px;
+   justify-content: center;
+   margin: 24px 189px;
+
+ }
+ 
+ 
+ .block5, .block7
+ {
+ display: flex;
+ flex-direction: row;
+ align-items: center;
+ background-color: gainsboro;
+ }
+ 
+ 
+
+
+
+
+/*  */
+
+  
+/* red banner starts */
+
+.red-bg{
+  background-color: hsl(350, 86%, 48%);
+  color: white;
+  padding: 113px 200px;
+  font-family: 'Poppins',sans-serif;
+}
+.red11
+{
+  display: flex;
+text-align: center;
+margin-left: 20px;
+}
+
+ 
+.red1{border-right: 2px dotted white;
+  box-sizing:border-box;
+  padding-left: 15px;
+  padding-right: 15px;
+
+}
+.red2{border-right: 2px dotted white;
+  border-right: 2px dotted white;
+  box-sizing:border-box;
+  padding-left: 15px;
+  padding-right: 15px;}
+
+  .red3{
+    box-sizing:border-box;
+    padding-left: 15px;
+    padding-right: 15px;}
+  
+.red-bg h1{
+  font-size: 76px;
+  margin:0px;
+}
+.red-bg h1 sup{
+  font-size: 18px;
+  margin-left: 12px;
+}
+.red-bg p{
+  font-size: 14px;
+}
+/* red banner ends */
+
+/* footer starts */
+.lastpart
+{
+  background-image: url(./Footerimg.jpg);
+  height: 500px;
+  line-height: 30px;
+  width: 100%;
+  display: flex;
+}
+
+.boxx1 p
+{
+ font-size: 18px;
+ padding: 17px 46px;
+}
+.boxx1 h3
+{
+margin-left: 46px;
+}
+.boxx1 a
+{
+  margin-left: 46px;
+  text-decoration: none;
+}
+
+
+.boxx2 
+{
+  margin-left: 15px;
+}
+.linking  ul li
+{
+font-size: 15px;
+color: white;
+margin-top: 10px;
+list-style: none ;
+}
+.linking  ul li a{
+  color: white;
+  font-family: sans-serif;
+  text-decoration:none;
+}
+
+.boxx1, .boxx2, .boxx3
+{
+  font-size: 21px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.boxx1, .boxx2, .boxx3, .boxx4, .boxx5, .boxx6 
+{
+  width: 25%;
+  margin-top: 90px;
+  color: white;
+ 
+}
+.boxx3 
+{
+  margin-bottom: 19px;
+  
+}
+
+.boxx3 a{
+  color: white;
+  font-size: 18px;
+  line-height: 41px;
+  font-weight: lighter;
+  text-decoration: #080822;
+}
+
+.boxx4
+{
+ margin-left: 53px;
+}
+.boxx4 h3
+{
+  font-size: 21px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+
+/* icons code starts */
+.icont i
+{
+ margin-right: 15px;
+ }
+ 
+.icont
+{
+  font-size: 45px;
+  margin: -5px;
+  padding: 31px 0px;
+  text-decoration: none;
+}
+
+.copyright
+{
+  height: 100px;
+background-color:#080822;
+color: white;
+padding: 47px;
+text-align:center;
+width: 100%;
+font-size: 16px;
+}
+
+.linking span
+{
+color: #06F;
+}
+
+.contact span
+{
+  color: #06F;
+}
+.contact a{
+  color: white;
+}
+/* icons code ends */
+/* footer ends */
+
+
+
+.dr1 {
+  position: relative;
+  display: inline-block;
+}
+
+
+.drpli {
+  display: none;
+  position: absolute;
+  background-color:black;
+  color: white;
+  
+  min-width: 250px;
+  height: 200px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.drpli a {
+  
+  padding: 0px 18px;
+  margin-left: 26px;
+  font-size: 14px;
+  text-decoration: none;
+  display: block;
+}
+
+.drpli a:hover {text-decoration: underline; }
+
+.dr1:hover .drpli {display: block;}
+
