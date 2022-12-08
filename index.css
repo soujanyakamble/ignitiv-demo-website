@@ -1,0 +1,109 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* .navbar-expand-lg .navbar-nav .nav-link
+{
+
+  margin-right:  140px;
+  padding-left: 15.5rem;
+} */
+
+
+.carousel slide 
+{
+    line-height: 3px;
+    justify-content: center;
+    
+}
+
+.carousel-indicators  li{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin-top: 4px;
+
+}
+
+.carousel-inner img
+{
+   background-size: cover cover;
+   height: 350px;
+}
+
+.carousel-inner .readmore
+{
+    width: 127px;
+    height: 38px;
+    margin: 10px 0px;
+    /* border-radius: 40%; */
+    border: none;
+    background-color: rgb(29, 189, 29);
+    color: white;
+}
+
+
+.featureinfo
+ {
+   padding: 40px 0;
+   line-height: 20px;
+
+}
+
+.featureinfo .card-title 
+{
+    margin: 20px 0px;
+}
+
+
+ #services
+{
+    
+}
+
+.part-section{
+    padding: 35px 0;
+}
+
+.cartstyle01{
+    background-color: #fff;
+    height: 300px;
+    text-align: center;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.cartstyle01 img{
+    width:40px;
+}
+
+.separator{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.separator hr{
+    width: 90px;
+}
+.separator > div{
+    position: absolute;
+    width: 40px;
+    height: 3px;
+    background-color: green;
+}
+
+@media only screen and (max-width: 768px) {
+    .logos div{ margin-bottom: 10px;}
+    .cartstyle01{ margin-bottom: 20px;}
+    .aboutimg{
+        width:100%;
+    }
+    .navbar-nav{ display: none;}
+}
