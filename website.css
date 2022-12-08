@@ -385,6 +385,10 @@ width: 100%;
 font-size: 16px;
 }
 
+html{
+  scroll-behavior: smooth;
+}
+
 .linking span
 {
 color: #06F;
