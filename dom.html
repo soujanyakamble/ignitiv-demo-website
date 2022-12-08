@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM</title>
+    <!-- <script src="./dom.js"></script> -->
+    <style>
+        .c1 {
+            background-color: aqua;
+            color: orange;
+        }
+    </style>
+</head>
+
+<body>
+
+
+    <p>THis is para</p>
+    <input type="button" value="add" onclick="add()" />
+    <input type="button" value="remove" onclick="remove()" />
+    <script>
+
+        const add = () => {
+            let p = document.querySelector("p")
+            console.log(p)
+            p.innerHTML = "<b>css is added</b>"
+            p.classList.add("c1")
+            p.title = "New Title"
+            console.log("hello")
+        }
+
+        const remove = () => {
+            let p = document.querySelector("p")
+            // console.log(p)
+            p.innerHTML = "<b>css is removed</b>"
+            p.classList.remove("c1")
+            // p.title="New Title"
+            // console.log("hello")
+        }
+
+
+
+
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form validation</title>
+    <script src="https://kit.fontawesome.com/1c74e082c5.js" crossorigin="anonymous"></script>
+    <script src="./form3.js"></script>
+    <style>
+       
+        .formdesign {
+            font-size: 20px;
+        }
+
+        .formdesign input {
+            width: 50%;
+            padding: 12px 20px;
+            border: 1px solid blue;
+            margin: 14px;
+            border-radius: 4px;
+            font-size: 15px;
+        }
+
+        .formerror {
+            color: red;
+        }
+
+        .but {
+            border-radius: 9px;
+            width: 100px;
+            height: 50px;
+            font-size: 25px;
+            margin: 22px 20px;
+        }
+    </style>
+
+</head>
+
+<body>
+    <center style="background-color: powderblue;">
+        <h1 style="color: pink;">Welcome To The javascript Form</h1>
+        <form action="http://google.com" name="myForm" onsubmit="return validateForm()" method="get">
+            <div class="formdesign" id="name">
+                Name: <input type="text" name="fname"><b><span class="formerror"></span></b>
+            </div>
+            <div class="formdesign" id="email">
+                Email: <input type="email" name="femail"><b><span class="formerror"></span></b>
+            </div>
+            <div class="formdesign" id="phone">
+                Phone: <input type="phone" name="fphone"><b><span class="formerror"></span></b>
+            </div>
+            <div class="formdesign" id="Pass">
+                Password: <input type="password" name="fpass"><b><span class="formerror"></span></b>
+            </div>
+            <div class="formdesign" id="cpass">
+                Confirm Password: <input type="password" name="fcpass"><b><span class="formerror"></span></b>
+            </div>
+            <input class="but" type="submit" value="Submit">
+        </form>
+    </center>
+
+  </body>  
+  </html>

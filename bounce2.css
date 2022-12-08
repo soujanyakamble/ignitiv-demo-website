@@ -1,0 +1,110 @@
+.res{
+    display: flex;
+    margin: auto;
+}
+.res1{
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    position: relative;
+    margin: auto;
+    animation-name: demo1;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-delay: 2s;
+    border-radius: 50%;
+    box-shadow: inset 3px 5px 3px 5px yellow;
+    border: solid;
+}
+
+ 
+.res2{
+    height: 200px;
+    width: 200px;
+    background-color: yellow;
+    position: relative;
+    margin: auto;
+    animation-name: demo3;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-delay: 3s;
+    border-radius: 50%;
+    box-shadow: inset 3px 5px 3px 5px red;
+    border: groove;
+}
+.res3{
+    height: 200px;
+    width: 200px;
+    background-color: blue;
+    position: relative;
+    margin: auto;
+    animation-name: demo4;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-delay: 4s;
+    border-radius: 50%;
+    box-shadow: inset 3px 5px 3px 5px paleturquoise;
+    border: dotted;
+}
+.res4{
+    height: 200px;
+    width: 200px;
+    background-color: rgb(40, 197, 67);
+    position: relative;
+    margin: auto;
+    animation-name: demo4;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-delay: 5s;
+    border-radius: 50%;
+    box-shadow: inset 3px 5px 3px 5px rgb(255, 187, 0);
+    border: ridge;
+}
+@keyframes demo1 {
+    from{
+        top: 0px;
+        bottom: 500px;
+        
+    }
+    to{
+        bottom: 0px;
+        top: 500px;
+        
+    }
+}
+@keyframes demo2 {
+    from{
+        top: 0px;
+        bottom: 500px;
+        
+    }
+    to{
+        bottom: 0px;
+        top: 500px;
+        
+    }
+}
+@keyframes demo3{
+    from{
+        top: 0px;
+        bottom: 500px;
+        
+    }
+    to{
+        bottom: 0px;
+        top: 500px;
+        
+    }
+}
+@keyframes demo4 {
+    from{
+        top: 0px;
+        bottom: 500px;
+        
+    }
+    to{
+        bottom: 0px;
+        top: 500px;
+        
+    }
+}
