@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+      class Student{
+            constructor(Sid,name){
+                this.Sid=Sid;
+                this.name=name;
+                this.subjects=[];
+                this.marks=[];
+                
+            }
+            addSubject(){
+                for(let i=0;i<3;i++){
+                    let s=prompt("Enter subjects");
+                    this.subjects.push(s);
+                }
+            }
+            addMarks(){
+                for(let i=0;i<3;i++)
+                {
+                    let m=parseInt(prompt("enter marks"));
+                    this.marks.push(m);
+                }
+            }
+            calculatePercentage(){
+                let sum=0;
+                for(let i=0;i<3;i++){
+                    sum+=this.marks[i]
+                }
+                // console.log(sum+" "+typeof(sum))
+                let per=((sum/(3*100))*100);
+                return per;
+            }
+            show(){
+                document.write("Student Id : "+this.Sid+"<br>");
+                document.write("Name : "+this.name+"<br>");
+                document.write("Percentage is : "+this.calculatePercentage()+"<br>")
+            }
+        }
+
+        var s1=new Student(1,"soujanya");
+        s1.addSubject();
+        s1.addMarks();
+        s1.calculatePercentage();
+        s1.show();
+
+        var s2=new Student(2,"soumya");
+        s2.addSubject();
+        s2.addMarks();
+        s2.calculatePercentage();
+        s2.show();
+
+        var s3=new Student(3,"sujata");
+        s3.addSubject();
+        s3.addMarks();
+        s3.calculatePercentage();
+        s3.show();
+
+    </script>
+</body>
+</html>
