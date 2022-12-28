@@ -1,0 +1,43 @@
+*
+{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;   
+}
+
+button
+{
+    padding: 6px 23px;
+    background-color: rgb(41, 210, 240);
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 10px;
+}
+
+input
+{
+    padding: 9px 15px;
+    position: relative;
+    background-color: rgb(206, 233, 142);
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 10px;
+    margin-left: 530px;
+    
+}
+
+div
+{
+  height: 250px; 
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  /* padding: 12px blue; */
+  
+}
+
+img
+{
+ height: 150px;
+ width: 100%;
+}
